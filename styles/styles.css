@@ -1,0 +1,130 @@
+html {
+  font-size: 62.5%;
+}
+
+/* Color pallette */
+/* 
+    Dark: #201E21
+    Barney purple: #A7059B
+    Light pink: #F7DAE8
+    Very light pink: #FFE9E9
+    Ocean Blue: #0178A5
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 2.9px;
+  letter-spacing: 0.2px;
+}
+
+/* stripping default margin/padding */
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 12.2rem;
+  text-align: right;
+  line-height: 9.43rem;
+}
+
+h2 {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 7.5rem;
+  line-height: 3.6rem;
+}
+
+h3 {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 5.5rem;
+  text-align: center;
+  line-height: 3.6rem;
+}
+
+button {
+  font-family: "East Sea Dokdo", cursive;
+  text-align: center;
+  line-height: 2.9rem;
+}
+
+input[type="button"] {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* end of global styles */
+
+/*  header styles */
+
+header {
+  background-image: url(./assets/header-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.header-nav ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.2px;
+  float: left;
+  margin: 20px;
+}
+
+header h1 {
+  padding-top: 20%;
+  text-align: left;
+}
+
+.socials {
+  font-size: 3rem;
+  /* position: relative;
+  bottom: 5%;
+  right: 5%; */
+}
+/* end of header styles */
+/* start of main */
+main {
+}
+/* start of new-product section */
+.new-product {
+}
+/* end of new-product */
+
+/* start of exhibitions */
+.exhibitions {
+}
+/* end of exhibitions */
+
+/* end of main */
+
+/* wrapper clearfix */
