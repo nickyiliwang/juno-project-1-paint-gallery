@@ -1,7 +1,3 @@
-html {
-  font-size: 62.5%;
-}
-
 /* Color pallette */
 /* 
     Dark: #201E21
@@ -11,22 +7,12 @@ html {
     Ocean Blue: #0178A5
 */
 
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: 2.9px;
-  letter-spacing: 0.2px;
+html {
+  font-size: 62.5%;
 }
 
-/* stripping default margin/padding */
-h1,
-h2,
-h3,
-p,
-ul,
-li,
-button {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: "East Sea Dokdo", cursive;
 }
 
 img {
@@ -34,29 +20,37 @@ img {
 }
 
 h1 {
-  font-family: "East Sea Dokdo", cursive;
   font-size: 12.2rem;
   text-align: right;
   line-height: 9.43rem;
 }
 
 h2 {
-  font-family: "East Sea Dokdo", cursive;
   font-size: 7.5rem;
   line-height: 3.6rem;
 }
 
 h3 {
-  font-family: "East Sea Dokdo", cursive;
+  color: black;
   font-size: 5.5rem;
   text-align: center;
   line-height: 3.6rem;
 }
 
-button {
-  font-family: "East Sea Dokdo", cursive;
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  font-size: 4.5rem;
   text-align: center;
   line-height: 2.9rem;
+  background: #0178a5;
+  color: white;
+  padding: 5px 20px;
 }
 
 input[type="button"] {
@@ -73,8 +67,13 @@ a {
   text-decoration: none;
 }
 
+/* icons */
+.fab {
+  color: white;
+}
+
 .wrapper {
-  max-width: 1000px;
+  max-width: 1440px;
   width: 80%;
   margin: 0 auto;
 }
@@ -82,12 +81,11 @@ a {
 /* end of global styles */
 
 /*  header styles */
-
 header {
-  background-image: url(./assets/header-image.jpg);
+  background-image: url(../assets/header-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  height: 90vh;
 }
 
 .header-nav ul li {
@@ -106,25 +104,137 @@ header h1 {
 }
 
 .socials {
-  font-size: 3rem;
-  /* position: relative;
-  bottom: 5%;
-  right: 5%; */
+  font-size: 2rem;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
 }
 /* end of header styles */
+
 /* start of main */
-main {
+/* start of product section */
+.product {
+  background: #ffe9e9;
+  padding: 10vh 0;
 }
-/* start of new-product section */
-.new-product {
+
+.product-image,
+.product-content {
+  float: left;
 }
-/* end of new-product */
+
+.product-image {
+  width: calc(30% - 20px);
+}
+
+.product-content {
+  width: calc(70% - 20px);
+  margin: 0 0 0 40px;
+}
+
+.product-content p {
+  margin: 20px 0;
+}
+
+.product-content .button {
+  margin: 0;
+}
+
+/* end of product section */
 
 /* start of exhibitions */
 .exhibitions {
+  background: #f7dae8;
+  padding: 120px 0;
+}
+
+.exhibitions h2 {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+/* changing styles for exhibition and mid section nav */
+.exhibitions li,
+.mid-section-nav li {
+  float: left;
+  width: calc((100% - 80px) / 3);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+/* changing styles for exhibition and mid section nav */
+.exhibitions li:nth-of-type(3),
+.mid-section-nav li:nth-of-type(3) {
+  margin-right: 0;
 }
 /* end of exhibitions */
 
-/* end of main */
+/* start of mid-section-nav */
+.mid-section-nav {
+  background: #ffe9e9;
+  padding: 100px 0;
+}
 
-/* wrapper clearfix */
+.mid-section-nav .far {
+  font-size: 5.5rem;
+  color: #0178a5;
+  display: block;
+}
+
+.mid-section-nav a,
+.mid-section-nav h3 {
+  text-align: center;
+}
+/* end of mid-section-nav */
+
+/* styling for brushes and paint sections */
+.brushes,
+.paint {
+  background: #f7dae8;
+  position: relative;
+}
+
+.brushes-content,
+.paint-content {
+  width: 50%;
+}
+
+.brushes-image,
+.paint-image {
+  position: absolute;
+  width: 50%;
+}
+
+/* start of brushes */
+
+.brushes-content {
+  padding: 140px 0;
+}
+
+/* adding paddings for brushes-content elements */
+  .brushes-content * {
+    margin-bottom: 20px;
+  }
+
+
+.brushes-content .button {
+  background: #A7059B;
+}
+
+.brushes-image {
+  top: 0;
+  right: 0;
+}
+/* end of brushes */
+/* start of paint */
+
+.paint-content {
+}
+
+.paint-image {
+  top: 0;
+  left: 0;
+}
+
+/* end of paint */
+/* end of main */
