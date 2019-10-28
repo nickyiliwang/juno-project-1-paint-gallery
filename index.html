@@ -23,13 +23,13 @@
       <div class="wrapper">
         <nav class="header-nav">
           <ul class="clearfix">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Blog">Blog</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#brushes">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <h1>Print Gallery</h1>
+        <h1>Paint Gallery</h1>
       </div>
       <!-- end of wrapper -->
       <ul class="socials">
@@ -64,8 +64,8 @@
               alt="over 5 paint canisters stacked on wood shelve"
             />
           </div>
-          <div class="product-content">
-            <h2>new product on the shelves</h2>
+          <div class="product-content" id="about">
+            <h2>New product on the shelves</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               eum officiis laboriosam enim nostrum consequatur maiores repellat
@@ -108,39 +108,41 @@
         </div>
       </section>
       <section class="mid-section-nav">
-        <ul class="clearfix">
-          <li>
-            <a href="#">
-              <i class="far fa-images"></i>
-              <h3>catalogue</h3>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="far fa-calendar-alt"></i>
-              <h3>events</h3></a
-            >
-          </li>
-          <li>
-            <a href="#">
-              <i class="far fa-handshake"></i>
-              <h3>collaborations</h3></a
-            >
-          </li>
-        </ul>
+        <div class="wrapper">
+          <ul class="clearfix">
+            <li>
+              <a class="catalogue" href="#">
+                <i class="far fa-images"></i>
+                <h3>catalogue</h3>
+              </a>
+            </li>
+            <li>
+              <a class="events" href="#">
+                <i class="far fa-calendar-alt"></i>
+                <h3>events</h3>
+              </a>
+            </li>
+            <li>
+              <a class="collaborations" href="#">
+                <i class="far fa-handshake"></i>
+                <h3>collaborations</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- end of wrapper -->
       </section>
-      <section class="brushes">
+      <section class="brushes" id="brushes">
         <div class="wrapper clearfix">
           <div class="brushes-content">
-            <h2>finding the right brushes</h2>
+            <h2>Finding the right brushes</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               officiis nobis labore, pariatur libero ducimus qui autem laborum,
               aut quidem voluptatum ratione, neque delectus perspiciatis at
-              maiores quisquam excepturi eius. Dolorum ipsum esse fugiat! Rem
-              reprehenderit deleniti officia qui ipsa.
+              maiores quisquam.
             </p>
-            <a class="button" href="#">read more</a>
+            <a class="button purple-button" href="#">read more</a>
           </div>
           <div class="brushes-image">
             <img
@@ -161,40 +163,46 @@
             />
           </div>
           <div class="paint-content">
-            <h2>all kind of paints</h2>
+            <h2>All kind of paints</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
               saepe sequi, facere aliquam consectetur eaque natus nisi. Enim
               soluta voluptatem quam amet cupiditate, tenetur dignissimos
-              dolores assumenda maxime perferendis corrupti quibusdam placeat,
-              ratione in corporis quae atque hic optio qui.
+              dolores assumenda.
             </p>
-            <a class="button" href="#">read more</a>
+            <a class="button purple-button" href="#">read more</a>
           </div>
         </div>
+        <!-- end of wrapper -->
       </section>
     </main>
     <footer>
-      <nav class="footer-nav">
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Blog">Blog</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="stay-updated">
-        <h3>stay updated</h3>
-        <p>Subscribe to our newsletter to stay updated.</p>
-        <input type="text" name="email" />
-        <input type="submit" value="subscribe" />
+      <div class="wrapper clearfix">
+          <h3 class="footer-title">Stay updated</h3>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#brushes">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="subscribe">
+          <p>Subscribe to our newsletter to stay updated.</p>
+          <form class="sign-up clearfix" action="">
+            <input type="text" name="email" id="email" placeholder="email address" />
+            <input type="submit" value="subscribe" />
+          </form>
+        </div>
+        <div class="contact" id="contact">
+          <h3>Contact</h3>
+          <p>info@email.com | 123 - 456 - 7890</p>
+          <p>123 some road, Toronto, ON</p>
+          <p>A5A 5A5, Canada</p>
+        </div>
       </div>
-      <div class="contact">
-        <p>info@email.com | 123 - 456 - 7890</p>
-        <p>123 some road, Toronto, ON</p>
-        <p>A5A 5A5, Canada</p>
-      </div>
-      <p class="page-end">copyright 2019 Juno</p>
+      <!-- end of wrapper -->
+      <p class="page-end">Copyright © 2019 JUNO College</p>
     </footer>
     <!-- Scripts -->
     <!-- Font Awesome -->
