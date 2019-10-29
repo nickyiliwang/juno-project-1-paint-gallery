@@ -1,0 +1,256 @@
+/* @media (max-width: 940px) {
+} */
+
+@media (max-width: 768px) {
+ .wrapper {
+    width: 80%;
+    max-width: 768px;
+  }
+
+  header h1 {
+    font-size: 12rem;
+    width: 50%;
+    line-height: 7rem;
+    padding-top: 30%;
+  }
+
+  h2 {
+    font-size: 7.5rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+  header {
+    background-position: 50% 20%;
+  }
+
+  .hamburger {
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 4rem;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  /* product section */
+  .product-image {
+    width: 100%;
+  }
+
+  .product-image,
+  .product-content {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .product-content h2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .read-more {
+    text-align: center;
+  }
+
+  .product-content p {
+    text-align: left;
+  }
+
+  /* exhibitions */
+  .exhibitions {
+    padding: 50px 0;
+  }
+
+  .exhibitions h2 {
+    padding: 20px 0;
+  }
+  .exhibitions li {
+    width: calc(50% - 10px);
+    margin: 0;
+  }
+
+  .exhibitions ul li:nth-last-of-type(1) {
+    margin-left: 5px;
+  }
+
+  .exhibitions ul li:nth-last-of-type(2) {
+    margin-right: 5px;
+  }
+
+  .exhibitions ul li:nth-last-of-type(3) {
+    display: none;
+  }
+
+  /* brushes and paint section */
+
+  .brushes-image,
+  .paint-image {
+    width: 100%;
+  }
+
+  .brushes-content,
+  .paint-content {
+    width: 100%;
+    position: static;
+    margin: 0;
+    text-align: center;
+    padding: 80vw 0 10vw 0;
+  }
+
+  /* footer */
+  .footer-nav ul {
+    margin: 0 auto;
+  }
+
+  .footer-nav li {
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+  }
+
+  .footer-nav,
+  .subscribe,
+  .contact,
+  input.email {
+    float: none;
+    width: 100%;
+  }
+
+  .sign-up {
+    text-align: center;
+  }
+
+  h2,
+  .contact h3,
+  p,
+  ::placeholder {
+    text-align: center;
+  }
+
+  .sub-btn {
+    float: none;
+    margin: 15px 0;
+  }
+
+  input.email {
+    padding: 10px;
+  }
+
+}
+
+/* @media (max-width: 480px) {
+} */
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 90%;
+    max-width: 425px;
+  }
+
+  header h1 {
+    font-size: 9rem;
+    width: 50%;
+    line-height: 5rem;
+    padding-top: 40%;
+  }
+
+  h2 {
+    font-size: 5.5rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+  header {
+    background-position: 50% 20%;
+  }
+
+  .hamburger {
+    display: block;
+    text-align: right;
+    color: white;
+    font-size: 4rem;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  /* product section */
+  .product-image {
+    width: 100%;
+  }
+
+  .product-image,
+  .product-content {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .product-content h2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .read-more {
+    text-align: center;
+  }
+
+  .product-content p {
+    text-align: left;
+  }
+
+  /* exhibitions */
+  .exhibitions {
+    padding: 50px 0;
+  }
+
+  .exhibitions h2 {
+    padding: 20px 0;
+  }
+  .exhibitions li {
+    width: calc(50% - 10px);
+    margin: 0;
+  }
+
+  .exhibitions ul li:nth-last-of-type(1) {
+    margin-left: 5px;
+  }
+
+  .exhibitions ul li:nth-last-of-type(2) {
+    margin-right: 5px;
+  }
+
+  .exhibitions ul li:nth-last-of-type(3) {
+    display: none;
+  }
+
+  /* mid-sect-nav */
+  .mid-section-nav {
+    padding: 50px 0;
+  }
+
+  .mid-section-nav li {
+    float: none;
+    width: 100%;
+    margin: 30px 0;
+  }
+}

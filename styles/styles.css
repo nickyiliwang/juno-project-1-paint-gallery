@@ -116,6 +116,10 @@ header {
   height: 90vh;
 }
 
+.hamburger {
+  display: none;
+}
+
 .header-nav ul li {
   float: left;
   margin: 15px 25px 0 0;
@@ -311,7 +315,7 @@ input {
   float: left;
 }
 
-input[type="text"] {
+input[type="email"] {
   height: 39px;
   width: 73%;
 }
