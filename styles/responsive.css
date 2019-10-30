@@ -1,5 +1,90 @@
-/* @media (max-width: 940px) {
-} */
+@media (min-width: 1800px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  header {
+    background-size: cover;
+  }
+
+.socials {
+  font-size: 5.5rem;
+  position: absolute;
+  bottom: 20%;
+  right: 5%;
+}
+
+  h1 {
+    font-size: 16.2rem;
+  }
+
+  h2 {
+    font-size: 11.2rem;
+
+  }
+
+  .brushes-content h2,
+  .paint-content h2, .product-content h2 {
+    line-height: 7rem;
+  }
+
+  .product-content p {
+    margin-bottom: 50px;
+  }
+
+  h3, .mid-section-nav .far {
+    font-size: 9.5rem;
+  }
+
+  p {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  .button {
+    font-size: 5rem;
+  }
+
+  nav a {
+    font-size: 4rem;
+  }
+
+::placeholder,
+input[type="email"],
+input[type="submit"] {
+  font-size: 5rem;
+  padding: 10px 20px;
+}
+
+  /* start of product section */
+
+  .product-image {
+    width: calc(40% - 10px);
+  }
+
+  .product-content {
+    width: calc(60% - 10px);
+    margin: 0 0 0 20px;
+  }
+  /* end of product section */
+
+
+input[type="email"] {
+  height: 50px;
+  width: 20vw;
+}
+
+.footer-nav li {
+margin: 20px 0;}
+
+.contact p {
+  font-size: 2rem;
+}
+
+
+
+}
+
 @media (max-width: 1280px) {
   .footer-nav {
     width: 20%;
@@ -12,6 +97,7 @@
   .contact {
     width: 30%;
   }
+
 }
 
 @media (max-width: 1200px) {
@@ -100,6 +186,14 @@
     width: 85%;
   }
 
+  /* centering all p tags */
+  .product-content p,
+  .brushes-content p,
+  .paint-content p {
+    text-align: left;
+    padding: 0;
+  }
+
   h2 {
     font-size: 4.5rem;
   }
@@ -138,7 +232,6 @@
     text-align: center;
   }
 
-  h2,
   .contact h3,
   p,
   ::placeholder {
@@ -305,13 +398,13 @@
     padding: 70vw 0 10vw 0;
   }
 
-    .product-content p,
+  .product-content p,
   .brushes-content p,
   .paint-content p {
     padding: 0;
   }
 
-    /* mid-sect-nav */
+  /* mid-sect-nav */
   .mid-section-nav {
     padding: 50px 0;
   }
@@ -409,7 +502,6 @@
   .exhibitions ul li:nth-last-of-type(3) {
     display: none;
   }
-
 
   .brushes-content,
   .paint-content {
